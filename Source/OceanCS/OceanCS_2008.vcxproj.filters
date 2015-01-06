@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{04334ecf-d45b-455a-af96-e36758ddd31f}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUTCore">
+      <UniqueIdentifier>{f834f789-5728-41f1-9384-d5018d4994a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSFFT">
+      <UniqueIdentifier>{290f1808-7b32-4c4e-8b02-ec22114541c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXUTOptional">
+      <UniqueIdentifier>{fb0dde52-a66e-4336-b958-68c6d52f1544}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Common\DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CSFFT\fft_512x512_c2c.hlsl">
+      <Filter>CSFFT</Filter>
+    </None>
+    <None Include="ocean_simulator_cs.hlsl" />
+    <None Include="ocean_simulator_vs_ps.hlsl" />
+    <None Include="skybox11.hlsl" />
+    <None Include="showmap.hlsl" />
+    <None Include="sky.hlsl" />
+    <None Include="rain.fx" />
+    <None Include="physics.hlsl" />
+    <None Include="Firey.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OceanCS.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\DXUT\Core\DXUT.h">
+      <Filter>DXUTCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\DXUT\Core\DXUTDevice11.h">
+      <Filter>DXUTCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\DXUT\Core\DXUTDevice9.h">
+      <Filter>DXUTCore</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\DXUT\Core\DXUTmisc.h">
+      <Filter>DXUTCore</Filter>
+    </ClInclude>
+    <ClInclude Include="CSFFT\fft_512x512.h">
+      <Filter>CSFFT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUTOptional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\DXUT\Optional\DXUTgui.h">
+      <Filter>DXUTOptional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\DXUT\Optional\DXUTres.h">
+      <Filter>DXUTOptional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUTOptional</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\DXUT\Optional\SDKmisc.h">
+      <Filter>DXUTOptional</Filter>
+    </ClInclude>
+    <ClInclude Include="ocean_simulator.h" />
+    <ClInclude Include="Atmosphere.h" />
+    <ClInclude Include="d3dUtil.h" />
+    <ClInclude Include="d3dx11effect.h" />
+    <ClInclude Include="sky.h" />
+    <ClInclude Include="Sun.h" />
+    <ClInclude Include="rain.h" />
+    <ClInclude Include="Physics.h" />
+    <ClInclude Include="TextureMgr.h" />
+    <ClInclude Include="ParticleSystem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Common\DXUT\Core\DXUT.cpp">
+      <Filter>DXUTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DXUT\Core\DXUTDevice11.cpp">
+      <Filter>DXUTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DXUT\Core\DXUTDevice9.cpp">
+      <Filter>DXUTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUTCore</Filter>
+    </ClCompile>
+    <ClCompile Include="CSFFT\fft_512x512_c2c.cpp">
+      <Filter>CSFFT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUTOptional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUTOptional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUTOptional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUTOptional</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUTOptional</Filter>
+    </ClCompile>
+    <ClCompile Include="ocean_simulator.cpp" />
+    <ClCompile Include="render.cpp" />
+    <ClCompile Include="skybox11.cpp" />
+    <ClCompile Include="Atmosphere.cpp" />
+    <ClCompile Include="d3dUtil.cpp" />
+    <ClCompile Include="sky.cpp" />
+    <ClCompile Include="Sun.cpp" />
+    <ClCompile Include="rain.cpp" />
+    <ClCompile Include="Physics.cpp" />
+    <ClCompile Include="ParticleSystem.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="ocean_shading.hlsl" />
+  </ItemGroup>
+</Project>

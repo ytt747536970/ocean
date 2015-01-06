@@ -1,0 +1,57 @@
+﻿生成启动时间为 2014/12/22 15:37:38。
+     1>项目“F:\work\OceanCS-s - 界面版 rain\OceanCS-s - 界面版 rain1\Direct3D\Source\OceanCS\OceanCS_2008.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“..\..\Temp\Debug\OceanCS\OceanCS.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\Include\DXUT\Core /I..\..\Include\DXUT\Optional /ZI /nologo /W4 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D _VC80_UPGRADE=0x0710 /D _UNICODE /D UNICODE /Gm /EHsc /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Yu"DXUT.h" /Fp"..\..\Temp\Debug\OceanCS\OceanCS.pch" /Fo"..\..\Temp\Debug\OceanCS\\" /Fd"..\..\Temp\Debug\OceanCS\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt render.cpp
+         render.cpp
+     1>f:\work\oceancs-s - 界面版 rain\oceancs-s - 界面版 rain1\direct3d\source\oceancs\render.cpp(447): warning C4244: “=”: 从“double”转换到“FLOAT”，可能丢失数据
+     1>f:\work\oceancs-s - 界面版 rain\oceancs-s - 界面版 rain1\direct3d\source\oceancs\render.cpp(448): warning C4244: “=”: 从“double”转换到“FLOAT”，可能丢失数据
+     1>f:\work\oceancs-s - 界面版 rain\oceancs-s - 界面版 rain1\direct3d\source\oceancs\render.cpp(449): warning C4244: “=”: 从“double”转换到“FLOAT”，可能丢失数据
+     1>f:\work\oceancs-s - 界面版 rain\oceancs-s - 界面版 rain1\direct3d\source\oceancs\render.cpp(1313): warning C4244: “=”: 从“double”转换到“FLOAT”，可能丢失数据
+     1>f:\work\oceancs-s - 界面版 rain\oceancs-s - 界面版 rain1\direct3d\source\oceancs\render.cpp(1314): warning C4244: “=”: 从“double”转换到“FLOAT”，可能丢失数据
+     1>f:\work\oceancs-s - 界面版 rain\oceancs-s - 界面版 rain1\direct3d\source\oceancs\render.cpp(1315): warning C4244: “=”: 从“double”转换到“FLOAT”，可能丢失数据
+         所有输出均为最新。
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\Bin\OceanCS.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\lib d3dcompiler.lib dxerr.lib dxguid.lib d3dx9d.lib d3d9.lib winmm.lib comctl32.lib d3dx11.lib Effects11d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"..\..\Temp\Debug\OceanCS\OceanCS.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\work\OceanCS-s - 界面版 rain\OceanCS-s - 界面版 rain1\Direct3D\Bin\OceanCS.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\..\Bin\OceanCS.lib" /MACHINE:X86 ..\..\Temp\Debug\OceanCS\OceanCS.res
+         ..\..\Temp\Debug\OceanCS\OceanCS.exe.embed.manifest.res
+         ..\..\Temp\Debug\OceanCS\DXUT.obj
+         ..\..\Temp\Debug\OceanCS\DXUTDevice11.obj
+         ..\..\Temp\Debug\OceanCS\DXUTDevice9.obj
+         ..\..\Temp\Debug\OceanCS\DXUTmisc.obj
+         ..\..\Temp\Debug\OceanCS\Atmosphere.obj
+         ..\..\Temp\Debug\OceanCS\fft_512x512_c2c.obj
+         ..\..\Temp\Debug\OceanCS\DXUTcamera.obj
+         ..\..\Temp\Debug\OceanCS\DXUTgui.obj
+         ..\..\Temp\Debug\OceanCS\DXUTres.obj
+         ..\..\Temp\Debug\OceanCS\DXUTsettingsdlg.obj
+         ..\..\Temp\Debug\OceanCS\SDKmisc.obj
+         ..\..\Temp\Debug\OceanCS\d3dUtil.obj
+         ..\..\Temp\Debug\OceanCS\main.obj
+         ..\..\Temp\Debug\OceanCS\ocean_simulator.obj
+         ..\..\Temp\Debug\OceanCS\ParticleSystem.obj
+         ..\..\Temp\Debug\OceanCS\Physics.obj
+         ..\..\Temp\Debug\OceanCS\rain.obj
+         ..\..\Temp\Debug\OceanCS\render.obj
+         ..\..\Temp\Debug\OceanCS\sky.obj
+         ..\..\Temp\Debug\OceanCS\skybox11.obj
+         ..\..\Temp\Debug\OceanCS\Sun.obj /IGNORE:4089 
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"..\..\Temp\Debug\OceanCS\OceanCS.exe.embed.manifest" /manifest ..\..\Temp\Debug\OceanCS\OceanCS.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         OceanCS_2008.vcxproj -> F:\work\OceanCS-s - 界面版 rain\OceanCS-s - 界面版 rain1\Direct3D\Source\OceanCS\..\..\Bin\OceanCS.exe
+       FinalizeBuildStatus:
+         正在删除文件“..\..\Temp\Debug\OceanCS\OceanCS.unsuccessfulbuild”。
+         正在对“..\..\Temp\Debug\OceanCS\OceanCS.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\work\OceanCS-s - 界面版 rain\OceanCS-s - 界面版 rain1\Direct3D\Source\OceanCS\OceanCS_2008.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:11.80
